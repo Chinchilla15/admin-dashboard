@@ -63,8 +63,61 @@ aside{
 
 header{
     grid-column: 2/3;
+    background-color: var(--white-color);
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.searchbar{
+    grid-area: 1/1/2/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+input{
+    width: 80%;
+    height: 1.8rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #DDE6ED;
+    text-indent: 10px;
+}
+
+.greeting{
+    grid-area: 2/1/3/2;
+    display: grid;
+    grid-template-columns: 100px 2fr;
+    grid-template-rows: 100px ;
+    font-weight: bolder;
+    gap: 15px;  
+    padding-left: 32px;
+}
+
+p.small-text{
+    grid-area: 1/2/2/2;
+    font-size: small;
+    align-self: start;
+    padding-top: 15px;
+}
+
+p.large-text{
+    font-size: 22px;
+    grid-area: 1/2/2/2;
+    align-self: end;
+}
+
+.user{
+    grid-area: 1/2/2/3;
+}
+
+.button-box{
+    grid-area: 2/2/3/3;
 }
 
 main{
   grid-row: 2;
+  background-color: #DDE6ED;
 }
