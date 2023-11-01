@@ -128,7 +128,6 @@ p.large-text{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .header-btn{
@@ -227,6 +226,9 @@ main{
     width: 90%;
     background-color: var(--white-color);
     box-shadow: 3px 3px 5px 1px var(--grey-color);
+}
+
+.a-box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -256,4 +258,32 @@ main{
 
 .t-box{
     margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.image-box{
+    grid-column: 1/2; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.username-box{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.username{
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.description{
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 300;
 }
