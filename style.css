@@ -10,6 +10,7 @@ body{
     --white-color: #FBFBFB;
     --blue-color: #001A6B;
     --orange-color: #E8630A;
+    --grey-color: #BEB8B8;
 }
 
 .container{
@@ -178,7 +179,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 3px 3px 5px 1px rgb(190, 184, 184);
+    box-shadow: 3px 3px 5px 1px var(--grey-color);
 }
 
 .card > p{
@@ -225,7 +226,32 @@ main{
     border-radius: 8px;
     width: 90%;
     background-color: var(--white-color);
-    box-shadow: 3px 3px 5px 1px rgb(190, 184, 184);
+    box-shadow: 3px 3px 5px 1px var(--grey-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-content{
+  width: 80%;
+  height: 28%;  
+}
+
+.a-content > label{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.a-content > p{
+    font-weight: 300;
+    font-size: 10px;
+    margin: 0;
+}
+
+.border-text{
+    padding-bottom: 5%;
+    border-bottom: .5px solid var(--grey-color);
 }
 
 .t-box{
