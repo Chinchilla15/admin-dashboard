@@ -15,7 +15,7 @@ For this proyect I used HTML and CSS only. Applied my knowledge in CSS Grid to c
 ## Screenshots
 
 Reference Design 
-![App Screenshot](Images/Reference%20Design.png)
+![App Screenshot](Images/Reference%20Design.png?raw=true)
 
 Final Design
-![App Screenshot](Images/Final%20Design.png)
+![App Screenshot](Images/Final%20Design.png?raw=true)
